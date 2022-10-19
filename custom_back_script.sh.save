@@ -1,0 +1,18 @@
+#!/bin/bash
+backup_files="/home/Desktop/"
+
+dest="/home/Desktop/backup/"
+
+date=$(date +%A)
+hostname=$(hostname -s)
+archive_file="hostname-$day.tgz"
+
+echo "Start local save"
+date
+echo
+
+tar szf $dest/$archive_file $backup_files
+
+echo
+echo "Finish local save"
+#!/init_my_first_commit
