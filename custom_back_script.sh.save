@@ -16,3 +16,4 @@ tar szf $dest/$archive_file $backup_files
 echo
 echo "Finish local save"
 #!/init_my_first_commit
+#!/last_commit
